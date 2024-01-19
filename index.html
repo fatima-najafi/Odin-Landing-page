@@ -1,62 +1,80 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-  <link rel="stylesheet" type="text/css" href=" style.css">
-  <title> </title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Landing page</title>
+    <link rel="stylesheet" href="style.css">
 </head>
-
-
-
-<header id="header" >
-  <img src="https://dl.airtable.com/.attachmentThumbnails/ab0d76ad0f8ba4a8e129bd31f331c094/d08944e1" id="header-img" border="1"><br>&nbsp;&nbsp;&nbsp;
-  <nav id="nav-bar">
-    <h1>the best city in Afghanistan:</h1>
-
- <a class="nav-link" href="#kabul"> kabul</a>&nbsp;&nbsp;&nbsp;
-    <a class="nav-link" href="#mazar">mazar</a>&nbsp;&nbsp;&nbsp;
-    <a class="nav-link" href="#information">information</a>&nbsp;&nbsp;&nbsp;
-    </h1>
-
-
-  </nav>
-
-</header>
-
 <body>
-  <section
-           id="kabul">
-   <center> <p> the best city in Afghanistan </p>
-      <img src="https://pbs.twimg.com/media/EcdL1uVXgAIPxng.jpg" width="560px"><center>
-  </section>
-&nbsp;&nbsp;&nbsp;
-
-  <section
-           id="mazar">
- 
-      <center>  
-       <iframe  id ="video"width="560" height="315" src="https://www.youtube.com/embed/aIj_b0R_7o8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></center>
-  </section>
-
-  <section id="information">
-  
-<center>
- <form id="form" action="https://www.freecodecamp.com/email-submit">
-                  <input id="text" type="text" placeholder="write your opinion"           class="text"required/>
-        <input type="email" name="email" placeholder="enter your email" id="email" required></input>
-        <input type="submit" id="submit" value="show" class="btn">
-  </form></center>
-
-
-    </div>
-  </section>
-
-
-
-
-
-           <footer>
-           
-               
-
- <br>       </footer></body> 
+    <header class="nav-bar">
+          <h1 class="logo">Fatima Najafi</h1>
+        <div class="nav-link" >
+              <a class="nav-item" href="#main">Home</a>
+              <a class="nav-item" href="#information">Content</a>
+              <a class="nav-item" href="#footer">Footer</a>
+        </div>
+    </header>
+    <section class="main" id="main">
+        <div class="main-info">
+            <h1>Beauty of Afghanistan</h1>
+            <p>
+            Afghanistan, a treasure of beauty and history,
+             features towering mountains, ancient structures in Kabul,
+              and the mesmerizing Hindu Kush. Its diversity, rich traditions, 
+              and warm hospitality invite exploration. From majestic
+               landscapes to delightful cuisine, each corner reveals
+                something extraordinary, waiting to be discovered
+            </p>
+            <button >Sing up</button>
+        </div>
+        <div>
+            <img class="main-img"src="afg.jpg" alt="Afghanistan Country" >
+        </div>
+    </section>
+    <section class="information" id="information">
+        <h2 class="info-title">Afghanistan's Random Information </h2>
+        <div class="box">
+            <div class="box-item">
+            <img src="cp.jpg_large" alt="" width="100px">
+            <p>Kabul university "Computer science faculty" 
+            </p>
+        </div>
+         <div class="box-item">
+            <img src="food.jpg" alt="" width="100px">
+            <p>Best foods in Afghanistan
+            </p>
+        </div>
+         <div class="box-item">
+            <img src="moun.jpg" alt="" width="100px">
+            <p>Best place in Afghanistan
+                
+            </p>
+        </div>
+         <div class="box-item">
+            <img src="Kabul.jpg" alt="">
+            <p>Kabul the capital of Afghanistan 
+                
+            </p>
+        </div>
+        </div>
+    </section>
+    <section class="quote">
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium at, vel tempore laborum aut possimus repellat nostrum quibusdam rerum consectetur eius quisquam nobis quasi, sed sequi sint, id rem voluptates.</p>
+        <h3>Author, Fatima Najafi</h3>
+    </section>
+    <section class="action" id="footer">
+       <div class="action-container">
+             <div >
+            <h3>Call the Actions, It's Time!</h3>
+            <p>Sign up for see more information about Afghanistan by clicking that button right over there! </p>
+        </div>
+          <button class="sign-up" >Sing up</button>
+       </div>
+         
+    </section>
+    <section class="footer">
+        <p>Developed By Fatima Najafi 2024</p>
+    </section>
+</body>
 </html>
